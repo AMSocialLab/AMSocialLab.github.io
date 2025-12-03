@@ -33,6 +33,32 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#projects">Work</a></li>
             <li><a href="#process">Process</a></li>
+            <li>
+              <button id="theme-toggle" class="theme-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-sun"
+                >
+                  <circle cx="12" cy="12" r="5"></circle>
+                  <line x1="12" y1="1" x2="12" y2="3"></line>
+                  <line x1="12" y1="21" x2="12" y2="23"></line>
+                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                  <line x1="1" y1="12" x2="3" y2="12"></line>
+                  <line x1="21" y1="12" x2="23" y2="12"></line>
+                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+              </button>
+            </li>
             <li><a href="#contact" class="nav-btn">Start a Project</a></li>
           </ul>
         </nav>
@@ -497,6 +523,32 @@
           }
         });
       });
+    </script>
+    <script>
+      const themeToggle = document.getElementById("theme-toggle");
+      const body = document.body;
+      const logoImgs = document.querySelectorAll(".logo-icon img");
+
+      const applyTheme = (theme) => {
+        if (theme === "light") {
+          body.classList.add("light-mode");
+          logoImgs.forEach((img) => (img.src = "logo-dark.svg"));
+        } else {
+          body.classList.remove("light-mode");
+          logoImgs.forEach((img) => (img.src = "logo-white.svg"));
+        }
+      };
+
+      themeToggle.addEventListener("click", () => {
+        const isLight = body.classList.toggle("light-mode");
+        const theme = isLight ? "light" : "dark";
+        localStorage.setItem("theme", theme);
+        applyTheme(theme);
+      });
+
+      // On page load
+      const savedTheme = localStorage.getItem("theme") || "dark";
+      applyTheme(savedTheme);
     </script>
   </body>
 </html>

@@ -201,6 +201,157 @@ nav a:hover::after {
   box-shadow: 0 10px 20px rgba(0, 102, 255, 0.3);
 }
 
+.theme-btn {
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  color: var(--text-light);
+  padding: 10px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-base);
+}
+
+.theme-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--neon-cyan);
+}
+.light-mode {
+  --deep-space: #f8fafc;
+  --dark-card: #ffffff;
+  --text-light: #0a0f1e;
+  --text-muted: #475569;
+  --glass-border: rgba(0, 0, 0, 0.1);
+
+  background-color: var(--light-bg);
+  color: var(--text-light);
+}
+
+.light-mode .logo-text {
+  background: linear-gradient(90deg, var(--text-light), var(--electric-blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.light-mode .nav {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.light-mode nav a {
+  color: var(--text-light);
+}
+
+.light-mode .theme-btn {
+  color: var(--text-light);
+  border-color: var(--glass-border);
+}
+
+.light-mode h1 {
+  background: linear-gradient(90deg, var(--text-light), var(--electric-blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.light-mode .hero-description {
+  color: var(--text-muted);
+}
+.light-mode .btn-secondary {
+  color: var(--text-light);
+}
+.light-mode .floating-card {
+  background: var(--dark-card);
+  box-shadow: var(--elevation-1);
+}
+.light-mode .card-title {
+  color: var(--text-light);
+}
+.light-mode .code-preview {
+  background: rgba(0, 0, 0, 0.05);
+}
+.light-mode .stat-label {
+  color: var(--text-muted);
+}
+.light-mode .tech-item {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--text-light);
+}
+.light-mode .section-title {
+  color: var(--text-light);
+}
+.light-mode .service-card {
+  background: var(--dark-card);
+  box-shadow: var(--elevation-1);
+}
+.light-mode .service-title {
+  color: var(--text-light);
+}
+.light-mode .service-description {
+  color: var(--text-muted);
+}
+.light-mode .service-tech span {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--text-light);
+}
+.light-mode .project-card {
+  background: var(--dark-card);
+  box-shadow: var(--elevation-1);
+}
+.light-mode .project-title {
+  color: var(--text-light);
+}
+.light-mode .project-description {
+  color: var(--text-muted);
+}
+.light-mode .step-number {
+  background: var(--dark-card);
+}
+.light-mode .step-title {
+  color: var(--text-light);
+}
+.light-mode .step-description {
+  color: var(--text-muted);
+}
+.light-mode .cta-title {
+  color: var(--text-light);
+}
+.light-mode .cta-description {
+  color: var(--text-muted);
+}
+.light-mode .contact-form {
+  background: var(--dark-card);
+  box-shadow: var(--elevation-1);
+}
+.light-mode .form-label {
+  color: var(--text-light);
+}
+.light-mode .form-input,
+.light-mode .form-textarea {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--text-light);
+}
+.light-mode footer {
+  border-top-color: var(--glass-border);
+}
+.light-mode .footer-tagline {
+  color: var(--text-muted);
+}
+.light-mode .footer-column h4 {
+  color: var(--text-light);
+}
+.light-mode .footer-column a {
+  color: var(--text-muted);
+}
+.light-mode .footer-bottom {
+  border-top-color: var(--glass-border);
+  color: var(--text-muted);
+}
+.light-mode .social-link {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--text-light);
+}
+
 /* Hero - Bold & futuristic */
 .hero {
   padding-top: 160px;
@@ -1051,5 +1202,57 @@ footer {
   .footer-bottom {
     flex-direction: column;
     text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .nav ul {
+    display: none; /* This hides the main navigation links */
+  }
+
+  /* Keep the theme toggle and the main CTA visible */
+  .nav-container .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-container .nav ul {
+    display: flex; /* Override the display:none for the direct child ul */
+    align-items: center;
+  }
+
+  .nav-container .nav ul li {
+    display: none; /* Hide individual li elements by default */
+  }
+
+  /* Selectively show the theme toggle and the "Start a Project" button */
+  .nav-container .nav ul li:has(#theme-toggle),
+  .nav-container .nav ul li:has(.nav-btn) {
+    display: block;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-btns {
+    flex-direction: column;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-links {
+    width: 100%;
+    justify-content: space-between;
   }
 }
