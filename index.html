@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>AM Social Lab — Creative · Technical Cooperation</title>
+    <meta
+      name="description"
+      content="AM Social Lab — design-driven engineering and cooperative product teams."
+    />
+
+    <!-- Google Fonts: More tech-focused typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="nav-container">
+        <nav class="nav" id="mainNav">
+          <a href="#home" class="logo">
+            <div class="logo-icon">
+              <img src="logo-white.svg" alt="the logo of the co-op" />
+            </div>
+            <div class="logo-text">AM Social Lab</div>
+          </a>
+
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#contact" class="nav-btn">Start a Project</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <div class="grid-bg"></div>
+        <div class="floating-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-left animate-on-scroll">
+            <h1>
+              We build digital products at the intersection of design &
+              engineering
+            </h1>
+            <p class="hero-description">
+              AM Social Lab is a creative technical studio that partners with
+              startups and established teams to design, build, and scale
+              exceptional digital experiences.
+            </p>
+
+            <div class="hero-btns">
+              <a href="#contact" class="btn-primary">
+                Start a Project
+                <span>→</span>
+              </a>
+              <a href="#projects" class="btn-secondary"> View Our Work </a>
+            </div>
+          </div>
+
+          <div class="hero-right animate-on-scroll">
+            <div class="hero-visual">
+              <div class="floating-card">
+                <div class="card-header">
+                  <div class="card-title">Projects Dashboard</div>
+                </div>
+
+                <div class="code-preview">
+                  <div class="code-line">
+                    <span class="code-tag">&lt;Component</span>
+                    <span class="code-attr">variant=</span
+                    ><span class="code-value">"interactive"</span>
+                    <span class="code-tag">/&gt;</span>
+                  </div>
+                  <div class="code-line">
+                    <span class="code-tag">&lt;DesignSystem</span>
+                    <span class="code-attr">tokens=</span
+                    ><span class="code-value">"custom"</span
+                    ><span class="code-tag">&gt;</span>
+                  </div>
+                  <div class="code-line">
+                    <span class="code-comment"
+                      >// Engineering with creative intent</span
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="code-tag">&lt;/DesignSystem&gt;</span>
+                  </div>
+                </div>
+
+                <div class="card-stats">
+                  <div class="stat">
+                    <div class="stat-value">98%</div>
+                    <div class="stat-label">Satisfaction</div>
+                  </div>
+                  <div class="stat">
+                    <div class="stat-value">42+</div>
+                    <div class="stat-label">Projects</div>
+                  </div>
+                  <div class="stat">
+                    <div class="stat-value">24/7</div>
+                    <div class="stat-label">Support</div>
+                  </div>
+                </div>
+
+                <div class="tech-stack">
+                  <div class="tech-item">React</div>
+                  <div class="tech-item">Figma</div>
+                  <div class="tech-item">Next.js</div>
+                  <div class="tech-item">Node.js</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Our Services</h2>
+
+        <div class="services-grid">
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">⎔</div>
+            <h3 class="service-title">Product Design</h3>
+            <p class="service-description">
+              End-to-end product design from user research to high-fidelity
+              prototypes and design systems.
+            </p>
+            <div class="service-tech">
+              <span>Figma</span>
+              <span>Prototyping</span>
+              <span>Design Systems</span>
+            </div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">⟨/⟩</div>
+            <h3 class="service-title">Frontend Engineering</h3>
+            <p class="service-description">
+              Production-ready React applications with performance optimization
+              and modern tooling.
+            </p>
+            <div class="service-tech">
+              <span>React</span>
+              <span>Next.js</span>
+              <span>TypeScript</span>
+            </div>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">⟁</div>
+            <h3 class="service-title">Technical Strategy</h3>
+            <p class="service-description">
+              Architecture planning, tech stack selection, and scalability
+              consulting for growth-stage products.
+            </p>
+            <div class="service-tech">
+              <span>Architecture</span>
+              <span>Scalability</span>
+              <span>DevOps</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+
+        <div class="projects-grid">
+          <div class="project-card animate-on-scroll">
+            <div class="project-image">
+              <div class="project-overlay">
+                <a href="#" class="btn-primary">View Case Study</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Nexus Platform</h3>
+              <p class="project-description">
+                A comprehensive SaaS platform for data visualization with
+                real-time collaboration features.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">WebGL</span>
+                <span class="project-tag">Real-time</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card animate-on-scroll">
+            <div class="project-image">
+              <div class="project-overlay">
+                <a href="#" class="btn-primary">View Case Study</a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Flow Finance</h3>
+              <p class="project-description">
+                Mobile-first banking application with advanced security features
+                and intuitive UX.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">React Native</span>
+                <span class="project-tag">Security</span>
+                <span class="project-tag">FinTech</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="process">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Our Process</h2>
+
+        <div class="process-steps">
+          <div class="process-step animate-on-scroll">
+            <div class="step-number">01</div>
+            <h3 class="step-title">Discover</h3>
+            <p class="step-description">
+              Deep dive into your business goals, users, and technical
+              constraints.
+            </p>
+          </div>
+
+          <div class="process-step animate-on-scroll">
+            <div class="step-number">02</div>
+            <h3 class="step-title">Design</h3>
+            <p class="step-description">
+              Create user flows, wireframes, and interactive prototypes.
+            </p>
+          </div>
+
+          <div class="process-step animate-on-scroll">
+            <div class="step-number">03</div>
+            <h3 class="step-title">Develop</h3>
+            <p class="step-description">
+              Build with modern technologies, following best practices and agile
+              methodologies.
+            </p>
+          </div>
+
+          <div class="process-step animate-on-scroll">
+            <div class="step-number">04</div>
+            <h3 class="step-title">Deliver</h3>
+            <p class="step-description">
+              Thorough testing, deployment, and ongoing optimization.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="cta-bg"></div>
+      <div class="container">
+        <h2 class="cta-title animate-on-scroll">
+          Ready to build something exceptional?
+        </h2>
+        <p class="cta-description animate-on-scroll">
+          Let's discuss your project and explore how we can bring your vision to
+          life with technical excellence and creative insight.
+        </p>
+        <a
+          href="#contact"
+          class="btn-primary animate-on-scroll"
+          style="font-size: 18px; padding: 20px 40px"
+        >
+          Start a Conversation
+          <span>→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Get in Touch</h2>
+
+        <div class="contact-form animate-on-scroll">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" class="form-input" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" class="form-input" required />
+            </div>
+
+            <div class="form-group">
+              <label for="project" class="form-label">Project Type</label>
+              <select id="project" class="form-input">
+                <option value="">Select a project type</option>
+                <option value="design">Product Design</option>
+                <option value="development">Web Development</option>
+                <option value="strategy">Technical Strategy</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Project Details</label>
+              <textarea
+                id="message"
+                class="form-textarea"
+                placeholder="Tell us about your project, timeline, and budget..."
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="btn-primary"
+              style="width: 100%; justify-content: center"
+            >
+              Send Message
+              <span>→</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#home" class="logo">
+              <div class="logo-icon">
+                <img src="logo-white.svg" alt="the logo of the co-op" />
+              </div>
+              <div class="logo-text">AM Social Lab</div>
+            </a>
+            <p class="footer-tagline">
+              Creative technical studio building exceptional digital products
+              through design and engineering partnership.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="#services">Product Design</a></li>
+                <li><a href="#services">Frontend Engineering</a></li>
+                <li><a href="#services">Technical Strategy</a></li>
+                <li><a href="#services">Design Systems</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4>Studio</h4>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4>Connect</h4>
+              <ul>
+                <li>
+                  <a href="mailto:hello@amsociallab.com"
+                    >hello@amsociallab.com</a
+                  >
+                </li>
+                <li><a href="tel:+11234567890">+1 (123) 456-7890</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>
+            © <span id="currentYear"></span> AM Social Lab. All rights reserved.
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link">in</a>
+            <a href="#" class="social-link">tw</a>
+            <a href="#" class="social-link">gh</a>
+            <a href="#" class="social-link">dr</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Set current year in footer
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+
+      // Navbar scroll effect
+      window.addEventListener("scroll", function () {
+        const nav = document.getElementById("mainNav");
+        if (window.scrollY > 50) {
+          nav.classList.add("scrolled");
+        } else {
+          nav.classList.remove("scrolled");
+        }
+      });
+
+      // Scroll animation
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      }, observerOptions);
+
+      // Observe all elements with animate-on-scroll class
+      document.querySelectorAll(".animate-on-scroll").forEach((el) => {
+        observer.observe(el);
+      });
+
+      // Form submission
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Get form values
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+
+          // Simple validation
+          if (!name || !email) {
+            alert("Please fill in all required fields.");
+            return;
+          }
+
+          // In a real application, you would send this data to a server
+          // For now, just show a success message
+          const submitBtn = this.querySelector('button[type="submit"]');
+          const originalText = submitBtn.innerHTML;
+
+          submitBtn.innerHTML = "Message Sent!";
+          submitBtn.style.background =
+            "linear-gradient(90deg, #00ff88, #00cc6a)";
+
+          setTimeout(() => {
+            submitBtn.innerHTML = originalText;
+            submitBtn.style.background = "";
+            document.getElementById("contactForm").reset();
+          }, 3000);
+        });
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href");
+          if (targetId === "#") return;
+
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
