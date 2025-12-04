@@ -369,3 +369,11 @@ if (themeToggle) {
   const savedTheme = localStorage.getItem("theme") || "dark";
   applyTheme(savedTheme);
 }
+
+// Burger menu toggle
+const burgerMenu = document.getElementById("burger-menu");
+const navLinks = document.getElementById("nav-links");
+
+burgerMenu.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});

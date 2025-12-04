@@ -1233,12 +1233,59 @@ footer {
 }
 
 /* Responsive */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.burger-bar {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: var(--text-light);
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: rgba(15, 21, 39, 0.95);
+  padding: 20px 0;
+  border-top: 1px solid var(--glass-border);
+}
 @media (max-width: 1024px) {
   .hero-content {
     grid-template-columns: 1fr;
     gap: 60px;
   }
+  .nav-links {
+    display: none;
+  }
 
+  .burger-menu {
+    display: flex;
+  }
+
+  .nav {
+    justify-content: space-between;
+  }
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1266,7 +1313,14 @@ footer {
   }
 
   .nav ul {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .nav-links.active ul {
+    display: flex;
   }
 
   .services-grid {
@@ -1325,10 +1379,6 @@ footer {
     font-size: 40px;
   }
 
-  .nav ul {
-    display: none; /* This hides the main navigation links */
-  }
-
   /* Keep the theme toggle and the main CTA visible */
   .nav-container .nav {
     display: flex;
@@ -1337,12 +1387,11 @@ footer {
   }
 
   .nav-container .nav ul {
-    display: flex; /* Override the display:none for the direct child ul */
     align-items: center;
   }
 
   .nav-container .nav ul li {
-    display: none; /* Hide individual li elements by default */
+    display: block; /* Hide individual li elements by default */
   }
 
   /* Selectively show the theme toggle and the "Start a Project" button */

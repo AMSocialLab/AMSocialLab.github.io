@@ -31,48 +31,56 @@
             <div class="logo-text">AM Social Lab</div>
           </a>
 
-          <ul>
-            <li>
-              <div id="lang-switch" class="lang-switch">
-                <span id="lang-en">EN</span>
-                <span id="lang-ar" class="active">AR</span>
-              </div>
-            </li>
-            <li>
-              <button id="theme-toggle" class="theme-btn">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-sun"
+          <button class="burger-menu" id="burger-menu" aria-label="Toggle Menu">
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+          </button>
+
+          <div class="nav-links" id="nav-links">
+            <ul>
+              <li>
+                <div id="lang-switch" class="lang-switch">
+                  <span id="lang-en">EN</span>
+                  <span id="lang-ar" class="active">AR</span>
+                </div>
+              </li>
+              <li>
+                <button id="theme-toggle" class="theme-btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-sun"
+                  >
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                  </svg>
+                </button>
+              </li>
+              <li>
+                <a href="#contact" class="nav-btn" data-key="start-project"
+                  >ابدأ مشروع</a
                 >
-                  <circle cx="12" cy="12" r="5"></circle>
-                  <line x1="12" y1="1" x2="12" y2="3"></line>
-                  <line x1="12" y1="21" x2="12" y2="23"></line>
-                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                  <line x1="1" y1="12" x2="3" y2="12"></line>
-                  <line x1="21" y1="12" x2="23" y2="12"></line>
-                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                </svg>
-              </button>
-            </li>
-            <li>
-              <a href="#contact" class="nav-btn" data-key="start-project"
-                >ابدأ مشروع</a
-              >
-            </li>
-            <li><a href="#services" data-key="services">خدماتنا</a></li>
-            <li><a href="./work.html" data-key="work">أعمالنا</a></li>
-            <li><a href="#process" data-key="process">منهجيتنا</a></li>
-          </ul>
+              </li>
+              <li><a href="#services" data-key="services">خدماتنا</a></li>
+              <li><a href="./work.html" data-key="work">أعمالنا</a></li>
+              <li><a href="#process" data-key="process">منهجيتنا</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
