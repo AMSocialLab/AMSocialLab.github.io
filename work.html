@@ -80,6 +80,60 @@
       </div>
     </header>
 
+    <div class="photo-grid">
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/ad1.webp" alt="صورة شبكة 1" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/ad2.webp" alt="صورة شبكة 2" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/ad3.webp" alt="صورة شبكة 3" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/ad4.webp" alt="صورة شبكة 4" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/ad5.webp" alt="صورة شبكة 5" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/ad6.webp" alt="صورة شبكة 6" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/ad-watch.webp" alt="صورة شبكة 6" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/Perfime ad 2 copy.webp" alt="صورة شبكة 6" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/Perfume AD 3 copy.webp" alt="صورة شبكة 6" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/Perfume Ad copy.webp" alt="صورة شبكة 6" />
+      </div>
+      <div class="photo-grid-item">
+        <img
+          src="/imgs/desing-work/social media ad 2 copy.webp"
+          alt="صورة شبكة 6"
+        />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/Untitled-1 copy.webp" alt="صورة شبكة 6" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/dentists1.webp" alt="صورة شبكة 6" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/dentists2.webp" alt="صورة شبكة 6" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/dentists3.webp" alt="صورة شبكة 6" />
+      </div>
+      <div class="photo-grid-item">
+        <img src="/imgs/desing-work/dentists4.webp" alt="صورة شبكة 6" />
+      </div>
+    </div>
+
     <section id="projects" class="projects">
       <div class="container">
         <h2 class="section-title animate-on-scroll" data-key="work-title">
@@ -243,6 +297,13 @@
         </div>
       </div>
     </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+      <span class="close-modal-btn">&times;</span>
+      <img class="image-modal-content" id="modalImage" />
+      <div class="modal-caption" id="modalCaption"></div>
+    </div>
 
     <!-- Footer -->
     <footer>
@@ -409,6 +470,36 @@
             });
           }
         });
+      });
+
+      // Image Modal Functionality
+      const imageModal = document.getElementById("imageModal");
+      const modalImage = document.getElementById("modalImage");
+      const modalCaption = document.getElementById("modalCaption");
+      const closeModalBtn = document.querySelector(".close-modal-btn");
+
+      function openImageInModal(imgElement) {
+        imageModal.style.display = "flex";
+        modalImage.src = imgElement.src;
+        modalCaption.textContent = imgElement.alt;
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeImageModal() {
+        imageModal.style.display = "none";
+        document.body.style.overflow = "auto";
+      }
+
+      document
+        .querySelectorAll(".photo-grid-item img, .carousel-slide img")
+        .forEach((img) => {
+          img.style.cursor = "pointer";
+          img.addEventListener("click", () => openImageInModal(img));
+        });
+
+      closeModalBtn.addEventListener("click", closeImageModal);
+      imageModal.addEventListener("click", (event) => {
+        if (event.target === imageModal) closeImageModal();
       });
     </script>
     <script>
