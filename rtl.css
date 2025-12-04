@@ -7,9 +7,9 @@
   flex-direction: row-reverse;
 }
 
-[dir="rtl"] .nav ul {
+/* [dir="rtl"] .nav ul {
   flex-direction: row-reverse;
-}
+} */
 
 [dir="rtl"] nav a::after {
   right: 0;
