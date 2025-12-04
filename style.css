@@ -1256,3 +1256,86 @@ footer {
     justify-content: space-between;
   }
 }
+
+/* Language Switcher */
+.lang-switch {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-md);
+  padding: 4px;
+  border: 1px solid var(--glass-border);
+}
+
+.lang-switch span {
+  padding: 6px 12px;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.lang-switch span.active {
+  background: var(--electric-blue);
+  color: white;
+}
+
+/* RTL Styles */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .logo {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav ul {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] nav a::after {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .hero-content {
+  direction: rtl;
+}
+
+[dir="rtl"] .hero-btns a span {
+  display: inline-block;
+}
+
+[dir="rtl"] .btn-primary > span:last-child,
+[dir="rtl"] .btn-secondary > span:last-child {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+[dir="rtl"] .floating-card {
+  direction: ltr;
+  text-align: left;
+}
+
+[dir="rtl"] .card-stats {
+  direction: ltr;
+}
+
+[dir="rtl"] .service-card,
+[dir="rtl"] .project-card,
+[dir="rtl"] .process-step,
+[dir="rtl"] .contact-form,
+[dir="rtl"] .footer-content {
+  text-align: right;
+}
+
+[dir="rtl"] .footer-links {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-logo {
+  text-align: right;
+  align-items: flex-end;
+}

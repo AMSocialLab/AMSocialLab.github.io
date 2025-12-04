@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>AM Social Lab — Creative · Technical Cooperation</title>
+    <title data-key="title">AM Social Lab — تعاون إبداعي وتقني</title>
     <meta
       name="description"
       content="AM Social Lab — design-driven engineering and cooperative product teams."
+      data-key="description"
     />
 
     <!-- Google Fonts: More tech-focused typography -->
@@ -30,9 +31,15 @@
           </a>
 
           <ul>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#process">Process</a></li>
+            <li><a href="#services" data-key="services">خدماتنا</a></li>
+            <li><a href="./work.html" data-key="work">أعمالنا</a></li>
+            <li><a href="#process" data-key="process">منهجيتنا</a></li>
+            <li>
+              <div id="lang-switch" class="lang-switch">
+                <span id="lang-en">EN</span>
+                <span id="lang-ar" class="active">AR</span>
+              </div>
+            </li>
             <li>
               <button id="theme-toggle" class="theme-btn">
                 <svg
@@ -59,7 +66,11 @@
                 </svg>
               </button>
             </li>
-            <li><a href="#contact" class="nav-btn">Start a Project</a></li>
+            <li>
+              <a href="#contact" class="nav-btn" data-key="start-project"
+                >ابدأ مشروع</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -79,22 +90,22 @@
       <div class="container">
         <div class="hero-content">
           <div class="hero-left animate-on-scroll">
-            <h1>
-              We build digital products at the intersection of design &
-              engineering
+            <h1 data-key="hero-h1">
+              نحن نبني منتجات رقمية عند تقاطع التصميم والهندسة
             </h1>
-            <p class="hero-description">
-              AM Social Lab is a creative technical studio that partners with
-              startups and established teams to design, build, and scale
-              exceptional digital experiences.
+            <p class="hero-description" data-key="hero-description">
+              AM Social Lab هو استوديو تقني إبداعي يشارك الشركات الناشئة والفرق
+              القائمة لتصميم وبناء وتوسيع تجارب رقمية استثنائية.
             </p>
 
             <div class="hero-btns">
               <a href="#contact" class="btn-primary">
-                Start a Project
-                <span>→</span>
+                <span data-key="start-project">ابدأ مشروع</span>
+                <span>←</span>
               </a>
-              <a href="#projects" class="btn-secondary"> View Our Work </a>
+              <a href="#projects" class="btn-secondary" data-key="view-work">
+                شاهد أعمالنا
+              </a>
             </div>
           </div>
 
@@ -102,7 +113,9 @@
             <div class="hero-visual">
               <div class="floating-card">
                 <div class="card-header">
-                  <div class="card-title">Projects Dashboard</div>
+                  <div class="card-title" data-key="projects-dashboard">
+                    لوحة تحكم المشاريع
+                  </div>
                 </div>
 
                 <div class="code-preview">
@@ -131,22 +144,26 @@
                 <div class="card-stats">
                   <div class="stat">
                     <div class="stat-value">98%</div>
-                    <div class="stat-label">Satisfaction</div>
+                    <div class="stat-label" data-key="satisfaction">
+                      رضا العملاء
+                    </div>
                   </div>
                   <div class="stat">
                     <div class="stat-value">42+</div>
-                    <div class="stat-label">Projects</div>
+                    <div class="stat-label" data-key="projects-count">
+                      المشاريع
+                    </div>
                   </div>
                   <div class="stat">
                     <div class="stat-value">24/7</div>
-                    <div class="stat-label">Support</div>
+                    <div class="stat-label" data-key="support">الدعم</div>
                   </div>
                 </div>
 
                 <div class="tech-stack">
-                  <div class="tech-item">React</div>
-                  <div class="tech-item">Figma</div>
-                  <div class="tech-item">Next.js</div>
+                  <div class="tech-item" data-key="react">React</div>
+                  <div class="tech-item" data-key="figma">Figma</div>
+                  <div class="tech-item" data-key="next-js">Next.js</div>
                   <div class="tech-item">Node.js</div>
                 </div>
               </div>
@@ -159,48 +176,55 @@
     <!-- Services -->
     <section id="services" class="services">
       <div class="container">
-        <h2 class="section-title animate-on-scroll">Our Services</h2>
+        <h2 class="section-title animate-on-scroll" data-key="our-services">
+          خدماتنا
+        </h2>
 
         <div class="services-grid">
           <div class="service-card animate-on-scroll">
             <div class="service-icon">⎔</div>
-            <h3 class="service-title">Product Design</h3>
-            <p class="service-description">
-              End-to-end product design from user research to high-fidelity
-              prototypes and design systems.
+            <h3 class="service-title" data-key="product-design">
+              تصميم المنتجات
+            </h3>
+            <p class="service-description" data-key="product-design-desc">
+              تصميم متكامل للمنتج من بحث المستخدم إلى النماذج الأولية عالية
+              الدقة وأنظمة التصميم.
             </p>
             <div class="service-tech">
-              <span>Figma</span>
-              <span>Prototyping</span>
-              <span>Design Systems</span>
+              <span data-key="figma">Figma</span>
+              <span data-key="prototyping">النماذج الأولية</span>
+              <span data-key="design-systems">أنظمة التصميم</span>
             </div>
           </div>
 
           <div class="service-card animate-on-scroll">
             <div class="service-icon">⟨/⟩</div>
-            <h3 class="service-title">Frontend Engineering</h3>
-            <p class="service-description">
-              Production-ready React applications with performance optimization
-              and modern tooling.
+            <h3 class="service-title" data-key="frontend-engineering">
+              هندسة الواجهات الأمامية
+            </h3>
+            <p class="service-description" data-key="frontend-engineering-desc">
+              تطبيقات React جاهزة للإنتاج مع تحسين الأداء وأحدث الأدوات.
             </p>
             <div class="service-tech">
-              <span>React</span>
-              <span>Next.js</span>
-              <span>TypeScript</span>
+              <span data-key="react">React</span>
+              <span data-key="next-js">Next.js</span>
+              <span data-key="typescript">TypeScript</span>
             </div>
           </div>
 
           <div class="service-card animate-on-scroll">
             <div class="service-icon">⟁</div>
-            <h3 class="service-title">Technical Strategy</h3>
-            <p class="service-description">
-              Architecture planning, tech stack selection, and scalability
-              consulting for growth-stage products.
+            <h3 class="service-title" data-key="technical-strategy">
+              الاستراتيجية التقنية
+            </h3>
+            <p class="service-description" data-key="technical-strategy-desc">
+              تخطيط البنية، واختيار مجموعة التقنيات، والاستشارات لمنتجات مرحلة
+              النمو.
             </p>
             <div class="service-tech">
-              <span>Architecture</span>
-              <span>Scalability</span>
-              <span>DevOps</span>
+              <span data-key="architecture">هندسة البرمجيات</span>
+              <span data-key="scalability">قابلية التوسع</span>
+              <span data-key="devops">DevOps</span>
             </div>
           </div>
         </div>
@@ -210,25 +234,35 @@
     <!-- Projects -->
     <section id="projects" class="projects">
       <div class="container">
-        <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+        <h2
+          class="section-title animate-on-scroll"
+          data-key="featured-projects"
+        >
+          مشاريع مميزة
+        </h2>
 
         <div class="projects-grid">
           <div class="project-card animate-on-scroll">
             <div class="project-image">
               <div class="project-overlay">
-                <a href="#" class="btn-primary">View Case Study</a>
+                <a href="#" class="btn-primary" data-key="view-case-study"
+                  >عرض دراسة الحالة</a
+                >
               </div>
             </div>
             <div class="project-content">
-              <h3 class="project-title">Nexus Platform</h3>
-              <p class="project-description">
-                A comprehensive SaaS platform for data visualization with
-                real-time collaboration features.
+              <h3 class="project-title" data-key="nexus-platform">
+                منصة Nexus
+              </h3>
+              <p class="project-description" data-key="nexus-platform-desc">
+                منصة SaaS شاملة لتصور البيانات مع ميزات التعاون في الوقت الفعلي.
               </p>
               <div class="project-tags">
-                <span class="project-tag">React</span>
-                <span class="project-tag">WebGL</span>
-                <span class="project-tag">Real-time</span>
+                <span class="project-tag" data-key="react">React</span>
+                <span class="project-tag" data-key="webgl">WebGL</span>
+                <span class="project-tag" data-key="real-time"
+                  >الوقت الفعلي</span
+                >
               </div>
             </div>
           </div>
@@ -236,19 +270,25 @@
           <div class="project-card animate-on-scroll">
             <div class="project-image">
               <div class="project-overlay">
-                <a href="#" class="btn-primary">View Case Study</a>
+                <a href="#" class="btn-primary" data-key="view-case-study"
+                  >عرض دراسة الحالة</a
+                >
               </div>
             </div>
             <div class="project-content">
-              <h3 class="project-title">Flow Finance</h3>
-              <p class="project-description">
-                Mobile-first banking application with advanced security features
-                and intuitive UX.
+              <h3 class="project-title" data-key="flow-finance">
+                Flow Finance
+              </h3>
+              <p class="project-description" data-key="flow-finance-desc">
+                تطبيق مصرفي للهاتف المحمول أولاً مع ميزات أمان متقدمة وتجربة
+                مستخدم سهلة.
               </p>
               <div class="project-tags">
-                <span class="project-tag">React Native</span>
-                <span class="project-tag">Security</span>
-                <span class="project-tag">FinTech</span>
+                <span class="project-tag" data-key="react-native"
+                  >React Native</span
+                >
+                <span class="project-tag" data-key="security">الأمان</span>
+                <span class="project-tag" data-key="fintech">FinTech</span>
               </div>
             </div>
           </div>
@@ -259,40 +299,41 @@
     <!-- Process -->
     <section id="process" class="process">
       <div class="container">
-        <h2 class="section-title animate-on-scroll">Our Process</h2>
+        <h2 class="section-title animate-on-scroll" data-key="our-process">
+          منهجيتنا
+        </h2>
 
         <div class="process-steps">
           <div class="process-step animate-on-scroll">
             <div class="step-number">01</div>
-            <h3 class="step-title">Discover</h3>
-            <p class="step-description">
-              Deep dive into your business goals, users, and technical
-              constraints.
+            <h3 class="step-title" data-key="discover">اكتشاف</h3>
+            <p class="step-description" data-key="discover-desc">
+              الغوص في أهداف عملك والمستخدمين والقيود التقنية.
             </p>
           </div>
 
           <div class="process-step animate-on-scroll">
             <div class="step-number">02</div>
-            <h3 class="step-title">Design</h3>
-            <p class="step-description">
-              Create user flows, wireframes, and interactive prototypes.
+            <h3 class="step-title" data-key="design">تصميم</h3>
+            <p class="step-description" data-key="design-desc">
+              إنشاء تدفقات المستخدم، والإطارات السلكية، والنماذج الأولية
+              التفاعلية.
             </p>
           </div>
 
           <div class="process-step animate-on-scroll">
             <div class="step-number">03</div>
-            <h3 class="step-title">Develop</h3>
-            <p class="step-description">
-              Build with modern technologies, following best practices and agile
-              methodologies.
+            <h3 class="step-title" data-key="develop">تطوير</h3>
+            <p class="step-description" data-key="develop-desc">
+              البناء بتقنيات حديثة، باتباع أفضل الممارسات والمنهجيات الرشيقة.
             </p>
           </div>
 
           <div class="process-step animate-on-scroll">
             <div class="step-number">04</div>
-            <h3 class="step-title">Deliver</h3>
-            <p class="step-description">
-              Thorough testing, deployment, and ongoing optimization.
+            <h3 class="step-title" data-key="deliver">تسليم</h3>
+            <p class="step-description" data-key="deliver-desc">
+              الاختبار الشامل والنشر والتحسين المستمر.
             </p>
           </div>
         </div>
@@ -303,19 +344,19 @@
     <section class="cta">
       <div class="cta-bg"></div>
       <div class="container">
-        <h2 class="cta-title animate-on-scroll">
-          Ready to build something exceptional?
+        <h2 class="cta-title animate-on-scroll" data-key="cta-title">
+          هل أنت مستعد لبناء شيء استثنائي؟
         </h2>
-        <p class="cta-description animate-on-scroll">
-          Let's discuss your project and explore how we can bring your vision to
-          life with technical excellence and creative insight.
+        <p class="cta-description animate-on-scroll" data-key="cta-description">
+          دعنا نناقش مشروعك ونستكشف كيف يمكننا تحقيق رؤيتك بتميز تقني وإبداع.
         </p>
         <a
           href="#contact"
           class="btn-primary animate-on-scroll"
           style="font-size: 18px; padding: 20px 40px"
+          data-key="start-conversation"
         >
-          Start a Conversation
+          ابدأ محادثة
           <span>→</span>
         </a>
       </div>
@@ -324,37 +365,56 @@
     <!-- Contact -->
     <section id="contact" class="contact">
       <div class="container">
-        <h2 class="section-title animate-on-scroll">Get in Touch</h2>
+        <h2 class="section-title animate-on-scroll" data-key="get-in-touch">
+          تواصل معنا
+        </h2>
 
         <div class="contact-form animate-on-scroll">
           <form id="contactForm">
             <div class="form-group">
-              <label for="name" class="form-label">Your Name</label>
+              <label for="name" class="form-label" data-key="your-name"
+                >اسمك</label
+              >
               <input type="text" id="name" class="form-input" required />
             </div>
 
             <div class="form-group">
-              <label for="email" class="form-label">Email Address</label>
+              <label for="email" class="form-label" data-key="email-address"
+                >البريد الإلكتروني</label
+              >
               <input type="email" id="email" class="form-input" required />
             </div>
 
             <div class="form-group">
-              <label for="project" class="form-label">Project Type</label>
+              <label for="project" class="form-label" data-key="project-type"
+                >نوع المشروع</label
+              >
               <select id="project" class="form-input">
-                <option value="">Select a project type</option>
-                <option value="design">Product Design</option>
-                <option value="development">Web Development</option>
-                <option value="strategy">Technical Strategy</option>
-                <option value="other">Other</option>
+                <option value="" data-key="select-project-type">
+                  اختر نوع المشروع
+                </option>
+                <option value="design" data-key="product-design-option">
+                  تصميم المنتج
+                </option>
+                <option value="development" data-key="web-development-option">
+                  تطوير الويب
+                </option>
+                <option value="strategy" data-key="technical-strategy-option">
+                  الاستراتيجية التقنية
+                </option>
+                <option value="other" data-key="other-option">آخر</option>
               </select>
             </div>
 
             <div class="form-group">
-              <label for="message" class="form-label">Project Details</label>
+              <label for="message" class="form-label" data-key="project-details"
+                >تفاصيل المشروع</label
+              >
               <textarea
                 id="message"
                 class="form-textarea"
-                placeholder="Tell us about your project, timeline, and budget..."
+                placeholder="أخبرنا عن مشروعك، الجدول الزمني، والميزانية..."
+                data-key="project-details-placeholder"
               ></textarea>
             </div>
 
@@ -362,8 +422,9 @@
               type="submit"
               class="btn-primary"
               style="width: 100%; justify-content: center"
+              data-key="send-message"
             >
-              Send Message
+              أرسل رسالة
               <span>→</span>
             </button>
           </form>
@@ -382,35 +443,55 @@
               </div>
               <div class="logo-text">AM Social Lab</div>
             </a>
-            <p class="footer-tagline">
-              Creative technical studio building exceptional digital products
-              through design and engineering partnership.
+            <p class="footer-tagline" data-key="footer-tagline">
+              استوديو تقني إبداعي يبني منتجات رقمية استثنائية من خلال شراكة
+              التصميم والهندسة.
             </p>
           </div>
 
           <div class="footer-links">
             <div class="footer-column">
-              <h4>Services</h4>
+              <h4 data-key="services-footer">الخدمات</h4>
               <ul>
-                <li><a href="#services">Product Design</a></li>
-                <li><a href="#services">Frontend Engineering</a></li>
-                <li><a href="#services">Technical Strategy</a></li>
-                <li><a href="#services">Design Systems</a></li>
+                <li>
+                  <a href="#services" data-key="product-design-footer"
+                    >تصميم المنتج</a
+                  >
+                </li>
+                <li>
+                  <a href="#services" data-key="frontend-engineering-footer"
+                    >هندسة الواجهات الأمامية</a
+                  >
+                </li>
+                <li>
+                  <a href="#services" data-key="technical-strategy-footer"
+                    >الاستراتيجية التقنية</a
+                  >
+                </li>
+                <li>
+                  <a href="#services" data-key="design-systems-footer"
+                    >أنظمة التصميم</a
+                  >
+                </li>
               </ul>
             </div>
 
             <div class="footer-column">
-              <h4>Studio</h4>
+              <h4 data-key="studio">الاستوديو</h4>
               <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Work</a></li>
-                <li><a href="#process">Process</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" data-key="home">الرئيسية</a></li>
+                <li><a href="#projects" data-key="work-footer">أعمالنا</a></li>
+                <li>
+                  <a href="#process" data-key="process-footer">منهجيتنا</a>
+                </li>
+                <li>
+                  <a href="#contact" data-key="contact-footer">اتصل بنا</a>
+                </li>
               </ul>
             </div>
 
             <div class="footer-column">
-              <h4>Connect</h4>
+              <h4 data-key="connect">تواصل</h4>
               <ul>
                 <li>
                   <a href="mailto:hello@amsociallab.com"
@@ -427,7 +508,10 @@
 
         <div class="footer-bottom">
           <div>
-            © <span id="currentYear"></span> AM Social Lab. All rights reserved.
+            © <span id="currentYear"></span>
+            <span data-key="rights-reserved"
+              >AM Social Lab. جميع الحقوق محفوظة.</span
+            >
           </div>
 
           <div class="social-links">
@@ -550,5 +634,6 @@
       const savedTheme = localStorage.getItem("theme") || "dark";
       applyTheme(savedTheme);
     </script>
+    <script src="script.js"></script>
   </body>
 </html>

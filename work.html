@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title data-key="title">AM Social Lab — تعاون إبداعي وتقني</title>
+    <meta
+      name="description"
+      content="AM Social Lab — design-driven engineering and cooperative product teams."
+      data-key="description"
+    />
+
+    <!-- Google Fonts: More tech-focused typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="nav-container">
+        <nav class="nav" id="mainNav">
+          <a href="#home" class="logo">
+            <div class="logo-icon">
+              <img src="logo-white.svg" alt="the logo of the co-op" />
+            </div>
+            <div class="logo-text">AM Social Lab</div>
+          </a>
+
+          <ul>
+            <li>
+              <a href="index/#services" data-key="services">خدماتنا</a>
+            </li>
+            <li><a href="#projects" data-key="work">أعمالنا</a></li>
+            <li><a href="#process" data-key="process">منهجيتنا</a></li>
+            <li>
+              <div id="lang-switch" class="lang-switch">
+                <span id="lang-en">EN</span>
+                <span id="lang-ar" class="active">AR</span>
+              </div>
+            </li>
+            <li>
+              <button id="theme-toggle" class="theme-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-sun"
+                >
+                  <circle cx="12" cy="12" r="5"></circle>
+                  <line x1="12" y1="1" x2="12" y2="3"></line>
+                  <line x1="12" y1="21" x2="12" y2="23"></line>
+                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                  <line x1="1" y1="12" x2="3" y2="12"></line>
+                  <line x1="21" y1="12" x2="23" y2="12"></line>
+                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <a href="#contact" class="nav-btn" data-key="start-project"
+                >ابدأ مشروع</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#home" class="logo">
+              <div class="logo-icon">
+                <img src="logo-white.svg" alt="the logo of the co-op" />
+              </div>
+              <div class="logo-text">AM Social Lab</div>
+            </a>
+            <p class="footer-tagline" data-key="footer-tagline">
+              استوديو تقني إبداعي يبني منتجات رقمية استثنائية من خلال شراكة
+              التصميم والهندسة.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4 data-key="services-footer">الخدمات</h4>
+              <ul>
+                <li>
+                  <a href="#services" data-key="product-design-footer"
+                    >تصميم المنتج</a
+                  >
+                </li>
+                <li>
+                  <a href="#services" data-key="frontend-engineering-footer"
+                    >هندسة الواجهات الأمامية</a
+                  >
+                </li>
+                <li>
+                  <a href="#services" data-key="technical-strategy-footer"
+                    >الاستراتيجية التقنية</a
+                  >
+                </li>
+                <li>
+                  <a href="#services" data-key="design-systems-footer"
+                    >أنظمة التصميم</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-key="studio">الاستوديو</h4>
+              <ul>
+                <li><a href="#home" data-key="home">الرئيسية</a></li>
+                <li><a href="#projects" data-key="work-footer">أعمالنا</a></li>
+                <li>
+                  <a href="#process" data-key="process-footer">منهجيتنا</a>
+                </li>
+                <li>
+                  <a href="#contact" data-key="contact-footer">اتصل بنا</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 data-key="connect">تواصل</h4>
+              <ul>
+                <li>
+                  <a href="mailto:hello@amsociallab.com"
+                    >hello@amsociallab.com</a
+                  >
+                </li>
+                <li><a href="tel:+11234567890">+1 (123) 456-7890</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>
+            © <span id="currentYear"></span>
+            <span data-key="rights-reserved"
+              >AM Social Lab. جميع الحقوق محفوظة.</span
+            >
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link">in</a>
+            <a href="#" class="social-link">tw</a>
+            <a href="#" class="social-link">gh</a>
+            <a href="#" class="social-link">dr</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Set current year in footer
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+
+      // Navbar scroll effect
+      window.addEventListener("scroll", function () {
+        const nav = document.getElementById("mainNav");
+        if (window.scrollY > 50) {
+          nav.classList.add("scrolled");
+        } else {
+          nav.classList.remove("scrolled");
+        }
+      });
+
+      // Scroll animation
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      }, observerOptions);
+
+      // Observe all elements with animate-on-scroll class
+      document.querySelectorAll(".animate-on-scroll").forEach((el) => {
+        observer.observe(el);
+      });
+
+      // Form submission
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Get form values
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+
+          // Simple validation
+          if (!name || !email) {
+            alert("Please fill in all required fields.");
+            return;
+          }
+
+          // In a real application, you would send this data to a server
+          // For now, just show a success message
+          const submitBtn = this.querySelector('button[type="submit"]');
+          const originalText = submitBtn.innerHTML;
+
+          submitBtn.innerHTML = "Message Sent!";
+          submitBtn.style.background =
+            "linear-gradient(90deg, #00ff88, #00cc6a)";
+
+          setTimeout(() => {
+            submitBtn.innerHTML = originalText;
+            submitBtn.style.background = "";
+            document.getElementById("contactForm").reset();
+          }, 3000);
+        });
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href");
+          if (targetId === "#") return;
+
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    </script>
+    <script>
+      const themeToggle = document.getElementById("theme-toggle");
+      const body = document.body;
+      const logoImgs = document.querySelectorAll(".logo-icon img");
+
+      const applyTheme = (theme) => {
+        if (theme === "light") {
+          body.classList.add("light-mode");
+          logoImgs.forEach((img) => (img.src = "logo-dark.svg"));
+        } else {
+          body.classList.remove("light-mode");
+          logoImgs.forEach((img) => (img.src = "logo-white.svg"));
+        }
+      };
+
+      themeToggle.addEventListener("click", () => {
+        const isLight = body.classList.toggle("light-mode");
+        const theme = isLight ? "light" : "dark";
+        localStorage.setItem("theme", theme);
+        applyTheme(theme);
+      });
+
+      // On page load
+      const savedTheme = localStorage.getItem("theme") || "dark";
+      applyTheme(savedTheme);
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
