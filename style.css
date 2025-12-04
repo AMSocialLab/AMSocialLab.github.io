@@ -146,6 +146,7 @@ header {
 
 nav ul {
   display: flex;
+  align-items: center;
   gap: 24px;
   list-style: none;
   margin: 0;
@@ -660,6 +661,7 @@ h1 {
   color: var(--text-light);
   border: 1px solid transparent;
   transition: all var(--transition-fast);
+  user-select: none;
 }
 
 .tech-item:hover {
@@ -678,8 +680,17 @@ h1 {
   font-size: 32px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   color: white;
+}
+
+.section-subtitle {
+  font-family: var(--font-body);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 60px;
+  color: var(--text-muted);
 }
 
 .client-logos {
@@ -791,7 +802,11 @@ h1 {
 
 /* Projects showcase */
 .projects {
-  padding: 120px 0;
+  padding-top: 200px;
+}
+
+.work-gallery {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .projects-grid {
@@ -806,6 +821,7 @@ h1 {
   overflow: hidden;
   border: 1px solid var(--glass-border);
   transition: all var(--transition-base);
+  /* height: 330px; */
 }
 
 .project-card:hover {
@@ -1134,6 +1150,10 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .work-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .projects-grid {
     grid-template-columns: 1fr;
   }
@@ -1147,6 +1167,9 @@ footer {
 @media (max-width: 768px) {
   h1 {
     font-size: 40px;
+  }
+  .work-gallery {
+    grid-template-columns: 1fr;
   }
 
   .nav ul {
