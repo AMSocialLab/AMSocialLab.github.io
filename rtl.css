@@ -1,0 +1,57 @@
+/* RTL Styles */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .logo {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav ul {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] nav a::after {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .hero-content {
+  direction: rtl;
+}
+
+[dir="rtl"] .hero-btns a span {
+  display: inline-block;
+}
+
+[dir="rtl"] .btn-primary > span:last-child,
+[dir="rtl"] .btn-secondary > span:last-child {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+[dir="rtl"] .floating-card {
+  direction: ltr;
+  text-align: left;
+}
+
+[dir="rtl"] .card-stats {
+  direction: ltr;
+}
+
+[dir="rtl"] .service-card,
+[dir="rtl"] .project-card,
+[dir="rtl"] .process-step,
+[dir="rtl"] .contact-form,
+[dir="rtl"] .footer-content {
+  text-align: right;
+}
+
+[dir="rtl"] .footer-links {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-logo {
+  text-align: right;
+  align-items: flex-end;
+}

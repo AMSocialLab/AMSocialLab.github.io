@@ -37,6 +37,10 @@
   /* animations */
   --transition-fast: 0.2s ease;
   --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  --radius: var(--radius-md);
+  --shadow: var(--elevation-1);
+  --transition: var(--transition-base);
 }
 
 /* Reset & base */
@@ -471,7 +475,7 @@ nav a:hover::after {
 h1 {
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: 52px;
+  font-size: 40px;
   line-height: 1.1;
   margin-bottom: 24px;
   background: linear-gradient(90deg, #ffffff, var(--neon-cyan));
@@ -693,6 +697,14 @@ h1 {
   color: var(--text-muted);
 }
 
+.work-spicail {
+  margin-top: 170px;
+}
+
+.work-spicail-sub {
+  margin-bottom: 0px;
+}
+
 .client-logos {
   display: flex;
   justify-content: center;
@@ -802,11 +814,11 @@ h1 {
 
 /* Projects showcase */
 .projects {
-  padding-top: 200px;
+  padding-top: 80px;
 }
 
 .work-gallery {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .projects-grid {
@@ -817,9 +829,12 @@ h1 {
 
 /* Photo Grid */
 .photo-grid {
+  width: min(1200px, 94%);
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+  padding: 100px 0;
 }
 
 .photo-grid-item {
@@ -900,7 +915,6 @@ h1 {
   overflow: hidden;
   border: 1px solid var(--glass-border);
   transition: all var(--transition-base);
-  /* height: 330px; */
 }
 
 .project-card:hover {
@@ -909,7 +923,7 @@ h1 {
 }
 
 .project-image {
-  height: 240px;
+  height: 330px;
   background: linear-gradient(135deg, var(--electric-blue), var(--glow-purple));
   position: relative;
   overflow: hidden;
@@ -1382,62 +1396,4 @@ footer {
 .lang-switch span.active {
   background: var(--electric-blue);
   color: white;
-}
-
-/* RTL Styles */
-[dir="rtl"] {
-  text-align: right;
-}
-
-[dir="rtl"] .logo {
-  flex-direction: row-reverse;
-}
-
-[dir="rtl"] .nav ul {
-  flex-direction: row-reverse;
-}
-
-[dir="rtl"] nav a::after {
-  right: 0;
-  left: auto;
-}
-
-[dir="rtl"] .hero-content {
-  direction: rtl;
-}
-
-[dir="rtl"] .hero-btns a span {
-  display: inline-block;
-}
-
-[dir="rtl"] .btn-primary > span:last-child,
-[dir="rtl"] .btn-secondary > span:last-child {
-  display: inline-block;
-  transform: rotate(180deg);
-}
-
-[dir="rtl"] .floating-card {
-  direction: ltr;
-  text-align: left;
-}
-
-[dir="rtl"] .card-stats {
-  direction: ltr;
-}
-
-[dir="rtl"] .service-card,
-[dir="rtl"] .project-card,
-[dir="rtl"] .process-step,
-[dir="rtl"] .contact-form,
-[dir="rtl"] .footer-content {
-  text-align: right;
-}
-
-[dir="rtl"] .footer-links {
-  flex-direction: row-reverse;
-}
-
-[dir="rtl"] .footer-logo {
-  text-align: right;
-  align-items: flex-end;
 }
