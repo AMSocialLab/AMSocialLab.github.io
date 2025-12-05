@@ -377,3 +377,38 @@ const navLinks = document.getElementById("nav-links");
 burgerMenu.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
+
+// Carousel functionality
+function setupCarousel(carouselElement) {
+  const slides = carouselElement.querySelector(".carousel-slides");
+  const slideItems = carouselElement.querySelectorAll(".carousel-slide");
+  const slideCount = slideItems.length;
+  let currentIndex = 0;
+  const isRTL = document.documentElement.dir === "rtl";
+
+  const nextBtn = carouselElement.querySelector(".next");
+  const prevBtn = carouselElement.querySelector(".prev");
+
+  function updateSlidePosition() {
+    const movePercentage = isRTL ? currentIndex * 100 : -currentIndex * 100;
+    slides.style.transform = `translateX(${movePercentage}%)`;
+  }
+
+  nextBtn.addEventListener("click", () => {
+    currentIndex++;
+    if (currentIndex >= slideCount) {
+      currentIndex = 0;
+    }
+    updateSlidePosition();
+  });
+
+  prevBtn.addEventListener("click", () => {
+    currentIndex--;
+    if (currentIndex < 0) {
+      currentIndex = slideCount - 1;
+    }
+    updateSlidePosition();
+  });
+}
+
+document.querySelectorAll(".carousel-container").forEach(setupCarousel);
