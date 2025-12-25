@@ -92,21 +92,28 @@ const translations = {
     "contact-footer": "اتصل بنا",
     connect: "تواصل",
     "rights-reserved": "AM Social Lab. جميع الحقوق محفوظة.",
-    "matgar": "متجر",
-    "matgar-desc": "منصة تجارة إلكترونية متكاملة الميزات مع بوابة دفع مدمجة ونظام إدارة المخزون",
-    "awegz": "أوجز",
-    "awegz-desc": "تطبيق ذكاء اصطناعي يساعد المستخدمين على إنشاء ملخصات فعالة للمقالات الطويلة.",
+    testimonials: "Client Testimonials",
+    matgar: "متجر",
+    "matgar-desc":
+      "منصة تجارة إلكترونية متكاملة الميزات مع بوابة دفع مدمجة ونظام إدارة المخزون",
+    awegz: "أوجز",
+    "awegz-desc":
+      "تطبيق ذكاء اصطناعي يساعد المستخدمين على إنشاء ملخصات فعالة للمقالات الطويلة.",
     "awegz-title": "أوجز – منصة ذكية لمعالجة النصوص التعليمية",
-    "awegz-subtitle": "تطبيق ويب متقدم يحول المحتوى التعليمي العربي إلى ملخصات واضحة وأسئلة تدريب عالية الجودة في ثوانٍ.",
+    "awegz-subtitle":
+      "تطبيق ويب متقدم يحول المحتوى التعليمي العربي إلى ملخصات واضحة وأسئلة تدريب عالية الجودة في ثوانٍ.",
     "arabic-processing": "معالجة اللغة العربية",
     "responsive-design": "تصميم متجاوب",
     "project-overview": "نظرة عامة على المشروع",
-    "awegz-overview": "أوجز هو تطبيق ويب حديث يعمل بالذكاء الاصطناعي مصمم لمساعدة الطلاب والمعلمين على تحويل النصوص التعليمية العربية على الفور إلى ملخصات منظمة وأسئلة متعددة الخيارات يتم إنشاؤها تلقائيًا. يوفر تجربة مستخدم سريعة وبديهية مع تصميم نظيف ومعالجة نصوص سلسة ونتائج جاهزة للتصدير.",
+    "awegz-overview":
+      "أوجز هو تطبيق ويب حديث يعمل بالذكاء الاصطناعي مصمم لمساعدة الطلاب والمعلمين على تحويل النصوص التعليمية العربية على الفور إلى ملخصات منظمة وأسئلة متعددة الخيارات يتم إنشاؤها تلقائيًا. يوفر تجربة مستخدم سريعة وبديهية مع تصميم نظيف ومعالجة نصوص سلسة ونتائج جاهزة للتصدير.",
     "problem-solution": "المشكلة والحل",
-    "problem": "المشكلة:",
-    "awegz-problem": "غالبًا ما يواجه الطلاب صعوبة في تلخيص الدروس الكبيرة بكفاءة، ويقضي المعلمون ساعات غير ضرورية في إنشاء مواد المراجعة. الأدوات الحالية ليست مُحسَّنة لمعالجة اللغة العربية، وتفتقر إلى البنية، وتنتج نتائج غير متسقة، أو تتطلب خبرة فنية.",
-    "solution": "الحل:",
-    "awegz-solution": "يعالج أوجز هذه المشكلات من خلال توفير سير عمل مؤتمت بالكامل:",
+    problem: "المشكلة:",
+    "awegz-problem":
+      "غالبًا ما يواجه الطلاب صعوبة في تلخيص الدروس الكبيرة بكفاءة، ويقضي المعلمون ساعات غير ضرورية في إنشاء مواد المراجعة. الأدوات الحالية ليست مُحسَّنة لمعالجة اللغة العربية، وتفتقر إلى البنية، وتنتج نتائج غير متسقة، أو تتطلب خبرة فنية.",
+    solution: "الحل:",
+    "awegz-solution":
+      "يعالج أوجز هذه المشكلات من خلال توفير سير عمل مؤتمت بالكامل:",
     "awegz-solution-1": "إنشاء فوري لملخصات نصية منظمة",
     "awegz-solution-2": "إنتاج تلقائي لأسئلة الاختيار من متعدد مع الإجابات",
     "awegz-solution-3": "تحليل دقيق للغة العربية مُحسَّن للمحتوى التعليمي",
@@ -115,35 +122,49 @@ const translations = {
     "key-features": "الميزات الرئيسية",
     "core-ai-features": "ميزات الذكاء الاصطناعي الأساسية",
     "text-summarization": "تلخيص النص",
-    "text-summarization-desc": "يحول الفقرات التعليمية الطويلة إلى ملخصات موجزة ومنظمة جيدًا.",
+    "text-summarization-desc":
+      "يحول الفقرات التعليمية الطويلة إلى ملخصات موجزة ومنظمة جيدًا.",
     "question-generation": "توليد الأسئلة",
-    "question-generation-desc": "ينشئ أسئلة متعددة الخيارات تلقائيًا مع الإجابات الصحيحة.",
+    "question-generation-desc":
+      "ينشئ أسئلة متعددة الخيارات تلقائيًا مع الإجابات الصحيحة.",
     "smart-analysis": "تحليل ذكي",
-    "smart-analysis-desc": "يستخلص المفاهيم الأساسية والتعريفات والنقاط المهمة من النص العربي.",
+    "smart-analysis-desc":
+      "يستخلص المفاهيم الأساسية والتعريفات والنقاط المهمة من النص العربي.",
     "content-export": "تصدير المحتوى",
-    "content-export-desc": "قم بتنزيل الملخصات والأسئلة التي تم إنشاؤها كملفات TXT / PDF / JSON.",
+    "content-export-desc":
+      "قم بتنزيل الملخصات والأسئلة التي تم إنشاؤها كملفات TXT / PDF / JSON.",
     "responsive-interface": "واجهة متجاوبة",
-    "responsive-interface-desc": "يعمل بسلاسة عبر الأجهزة المحمولة والأجهزة اللوحية وأجهزة سطح المكتب.",
+    "responsive-interface-desc":
+      "يعمل بسلاسة عبر الأجهزة المحمولة والأجهزة اللوحية وأجهزة سطح المكتب.",
     "zero-setup": "لا يوجد إعداد",
-    "zero-setup-desc": "لا يوجد تسجيل دخول، ولا تعقيد في الخلفية - الصق النص واحصل على نتائج فورية.",
+    "zero-setup-desc":
+      "لا يوجد تسجيل دخول، ولا تعقيد في الخلفية - الصق النص واحصل على نتائج فورية.",
     "future-features": "الميزات المستقبلية",
     "saved-sessions": "الجلسات المحفوظة",
     "saved-sessions-desc": "الحفاظ تلقائيًا على الأسئلة والملخصات المعالجة.",
     "doc-export": "تصدير DOC",
     "doc-export-desc": "إنشاء أوراق دراسة DOC منسقة بشكل جميل.",
     "teacher-dashboard": "لوحة تحكم المعلم",
-    "teacher-dashboard-desc": "تنظيم الدروس وتتبع المخرجات ومشاركة المواد الدراسية.",
+    "teacher-dashboard-desc":
+      "تنظيم الدروس وتتبع المخرجات ومشاركة المواد الدراسية.",
     "tech-stack": "مجموعة التقنيات",
     "architecture-highlights": "أبرز مميزات البنية",
-    "architecture-1": "استدلال الذكاء الاصطناعي المستند إلى واجهة برمجة التطبيقات: يستخدم نقاط نهاية LLM خارجية للتلخيص وتوليد الأسئلة.",
-    "architecture-2": "بنية العميل عديمة الحالة: تتجنب منطق الخلفية المعقد وتضمن استجابات سريعة.",
-    "architecture-3": "نظام تصدير قائم على Blob: ينشئ ملفات قابلة للتنزيل مباشرة من المتصفح.",
-    "architecture-4": "تفاعلات واجهة المستخدم المحسّنة: ملاحظات التقدم في الوقت الفعلي وحالات التحميل السلسة.",
+    "architecture-1":
+      "استدلال الذكاء الاصطناعي المستند إلى واجهة برمجة التطبيقات: يستخدم نقاط نهاية LLM خارجية للتلخيص وتوليد الأسئلة.",
+    "architecture-2":
+      "بنية العميل عديمة الحالة: تتجنب منطق الخلفية المعقد وتضمن استجابات سريعة.",
+    "architecture-3":
+      "نظام تصدير قائم على Blob: ينشئ ملفات قابلة للتنزيل مباشرة من المتصفح.",
+    "architecture-4":
+      "تفاعلات واجهة المستخدم المحسّنة: ملاحظات التقدم في الوقت الفعلي وحالات التحميل السلسة.",
     "challenges-solutions": "التحديات والحلول",
-    "challenge-1": "تناقضات البرمجة اللغوية العصبية العربية ← تنفيذ ضمانات على مستوى التوجيه وتمريرات إعادة معالجة متعددة.",
-    "challenge-2": "ضمان تنوع الأسئلة المتوازن ← إضافة قيود النموذج ومنطق توزيع الأسئلة.",
-    "challenge-3": "قيود تنسيق التصدير ← استخدم إنشاء Blob المستند إلى المستعرض وتخطيط تكامل PDF.",
-    "screenshots": "لقطات الشاشة",
+    "challenge-1":
+      "تناقضات البرمجة اللغوية العصبية العربية ← تنفيذ ضمانات على مستوى التوجيه وتمريرات إعادة معالجة متعددة.",
+    "challenge-2":
+      "ضمان تنوع الأسئلة المتوازن ← إضافة قيود النموذج ومنطق توزيع الأسئلة.",
+    "challenge-3":
+      "قيود تنسيق التصدير ← استخدم إنشاء Blob المستند إلى المستعرض وتخطيط تكامل PDF.",
+    screenshots: "لقطات الشاشة",
     "future-improvements": "التحسينات المستقبلية",
     "improvement-1": "لوحة تحكم المعلم مع ملخصات محفوظة وبنوك أسئلة",
     "improvement-2": "تصدير DOC بتنسيق كامل",
@@ -153,24 +174,30 @@ const translations = {
     "view-live-demo": "مشاهدة العرض المباشر",
     "github-repository": "مستودع جيثب",
     "matgar-title": "منصة تجارة إلكترونية Next.js",
-    "matgar-subtitle": "حل تسوق باللغة العربية أولاً، يعتمد على الجنيه المصري ومصمم خصيصًا للسوق المصري",
+    "matgar-subtitle":
+      "حل تسوق باللغة العربية أولاً، يعتمد على الجنيه المصري ومصمم خصيصًا للسوق المصري",
     "e-commerce": "تجارة إلكترونية",
     "arabic-ui": "واجهة مستخدم عربية",
-    "matgar-overview": "منصة تجارة إلكترونية حديثة ومتكاملة مبنية باستخدام Next.js و Supabase ، ومصممة خصيصًا للسوق المصري. توفر المنصة تجربة تسوق سريعة ومتجاوبة وسهلة الاستخدام للعملاء - مع واجهة مستخدم عربية وأسعار بالجنيه المصري (EGP) - مع تزويد أصحاب المتاجر بلوحة تحكم آمنة للمسؤولين لإدارة المنتجات والفئات والطلبات.",
-    "matgar-problem": "معظم منصات التجارة الإلكترونية في مصر إما مترجمة بشكل سيئ، أو غير متوافقة مع الجوّال، أو باهظة الثمن لصاحب العمل، أو سيئة التصميم، أو تفتقر إلى الميزات الحديثة مثل تصفية المنتجات السريعة والسداد السلس.",
+    "matgar-overview":
+      "منصة تجارة إلكترونية حديثة ومتكاملة مبنية باستخدام Next.js و Supabase ، ومصممة خصيصًا للسوق المصري. توفر المنصة تجربة تسوق سريعة ومتجاوبة وسهلة الاستخدام للعملاء - مع واجهة مستخدم عربية وأسعار بالجنيه المصري (EGP) - مع تزويد أصحاب المتاجر بلوحة تحكم آمنة للمسؤولين لإدارة المنتجات والفئات والطلبات.",
+    "matgar-problem":
+      "معظم منصات التجارة الإلكترونية في مصر إما مترجمة بشكل سيئ، أو غير متوافقة مع الجوّال، أو باهظة الثمن لصاحب العمل، أو سيئة التصميم، أو تفتقر إلى الميزات الحديثة مثل تصفية المنتجات السريعة والسداد السلس.",
     "matgar-solution": "بناء منصة متجاوبة بالكامل، عربية أولاً مع:",
     "matgar-solution-1": "واجهة متجر للعملاء مُحسَّنة للجوّال وسطح المكتب",
-    "matgar-solution-2": "لوحة تحكم للمسؤول مع تحكم آمن في الوصول قائم على الأدوار",
+    "matgar-solution-2":
+      "لوحة تحكم للمسؤول مع تحكم آمن في الوصول قائم على الأدوار",
     "matgar-solution-3": "إدارة فعالة للمنتجات / الفئات",
-    "storefront": "واجهة المتجر",
-    "homepage": "الصفحة الرئيسية",
+    storefront: "واجهة المتجر",
+    homepage: "الصفحة الرئيسية",
     "homepage-desc": 'منتجات مميزة ("عروض ساخنة") ولافتات ترويجية',
     "product-listings": "قوائم المنتجات",
     "product-listings-desc": "تصفح جميع المنتجات مع تصفية متقدمة",
     "search-filters": "بحث وفلاتر",
-    "search-filters-desc": "بحث غامض حسب اسم المنتج / الوصف مع خيارات تصفية متعددة",
+    "search-filters-desc":
+      "بحث غامض حسب اسم المنتج / الوصف مع خيارات تصفية متعددة",
     "shopping-cart": "عربة التسوق",
-    "shopping-cart-desc": "إضافة وإزالة وتحديث الكميات مع استمرارية عربة التسوق للضيوف",
+    "shopping-cart-desc":
+      "إضافة وإزالة وتحديث الكميات مع استمرارية عربة التسوق للضيوف",
     "checkout-flow": "تدفق الدفع",
     "checkout-flow-desc": "انتقال سلس من عربة التسوق إلى الدفع",
     "responsive-design-desc": "مُحسَّن للجوّال والأجهزة اللوحية وسطح المكتب",
@@ -178,22 +205,33 @@ const translations = {
     "secure-authentication": "مصادقة آمنة",
     "secure-authentication-desc": "الوصول القائم على الأدوار مع Supabase Auth",
     "product-management": "إدارة المنتج",
-    "product-management-desc": "منتجات CRUD ، تحميل الصور ، تعيين العلامات (is_hot ، is_new)",
+    "product-management-desc":
+      "منتجات CRUD ، تحميل الصور ، تعيين العلامات (is_hot ، is_new)",
     "category-management": "إدارة الفئات",
     "category-management-desc": "إنشاء / تحديث / حذف الفئات",
     "centralized-admin-panel": "لوحة تحكم مركزية للمسؤول",
-    "centralized-admin-panel-desc": "شريط جانبي للتنقل للمنتجات والفئات والطلبات",
-    "matgar-architecture-1": "مكونات الخادم: تحميل أولي سريع وتحسين محركات البحث (على سبيل المثال ، جلب الصفحة الرئيسية 'عروض ساخنة')",
-    "matgar-architecture-2": "مكونات العميل: صفحات ديناميكية (منتجات ، عربة تسوق) مع تحديثات واجهة المستخدم في الوقت الفعلي",
-    "matgar-architecture-3": "إدارة الحالة: جلب البيانات من جانب الخادم جنبًا إلى جنب مع خطافات React من جانب العميل و localStorage لاستمرارية عربة التسوق",
-    "matgar-architecture-4": "التحكم في الوصول القائم على الأدوار (RBAC): يتحقق تخطيط المسؤول من بيانات تعريف الدور قبل العرض ، ويعيد توجيه المستخدمين غير المصرح لهم",
-    "matgar-challenge-1": "تصفية غنية بدون استعلامات بطيئة ← جلب المنتجات مرة واحدة من جانب العميل ، ثم التصفية / البحث في الذاكرة",
-    "matgar-challenge-2": "استمرارية عربة التسوق للضيوف ← تخزين عربة التسوق في localStorage ، والمزامنة عند تسجيل الدخول / الدفع",
-    "matgar-challenge-3": "تأمين مسارات المسؤول ← يتحقق تخطيط المسؤول الشبيه بالبرنامج الوسيط من أدوار Supabase Auth",
+    "centralized-admin-panel-desc":
+      "شريط جانبي للتنقل للمنتجات والفئات والطلبات",
+    "matgar-architecture-1":
+      "مكونات الخادم: تحميل أولي سريع وتحسين محركات البحث (على سبيل المثال ، جلب الصفحة الرئيسية 'عروض ساخنة')",
+    "matgar-architecture-2":
+      "مكونات العميل: صفحات ديناميكية (منتجات ، عربة تسوق) مع تحديثات واجهة المستخدم في الوقت الفعلي",
+    "matgar-architecture-3":
+      "إدارة الحالة: جلب البيانات من جانب الخادم جنبًا إلى جنب مع خطافات React من جانب العميل و localStorage لاستمرارية عربة التسوق",
+    "matgar-architecture-4":
+      "التحكم في الوصول القائم على الأدوار (RBAC): يتحقق تخطيط المسؤول من بيانات تعريف الدور قبل العرض ، ويعيد توجيه المستخدمين غير المصرح لهم",
+    "matgar-challenge-1":
+      "تصفية غنية بدون استعلامات بطيئة ← جلب المنتجات مرة واحدة من جانب العميل ، ثم التصفية / البحث في الذاكرة",
+    "matgar-challenge-2":
+      "استمرارية عربة التسوق للضيوف ← تخزين عربة التسوق في localStorage ، والمزامنة عند تسجيل الدخول / الدفع",
+    "matgar-challenge-3":
+      "تأمين مسارات المسؤول ← يتحقق تخطيط المسؤول الشبيه بالبرنامج الوسيط من أدوار Supabase Auth",
     "matgar-improvement-1": "دمج بوابة دفع كاملة",
-    "matgar-improvement-2": "إضافة حسابات العملاء (سجل الطلبات والعناوين المحفوظة)",
-    "matgar-improvement-3": "تنفيذ ترقيم الصفحات من جانب الخادم لمجموعات البيانات الكبيرة",
-    "matgar-improvement-4": "إضافة تدويل (متعدد اللغات ، متعدد العملات)"
+    "matgar-improvement-2":
+      "إضافة حسابات العملاء (سجل الطلبات والعناوين المحفوظة)",
+    "matgar-improvement-3":
+      "تنفيذ ترقيم الصفحات من جانب الخادم لمجموعات البيانات الكبيرة",
+    "matgar-improvement-4": "إضافة تدويل (متعدد اللغات ، متعدد العملات)",
   },
   en: {
     title: "AM Social Lab — Creative · Technical Cooperation",
@@ -291,60 +329,84 @@ const translations = {
     "contact-footer": "Contact",
     connect: "Connect",
     "rights-reserved": "AM Social Lab. All rights reserved.",
-    "matgar": "Matgar",
-    "matgar-desc": "A full-featured e-commerce platform with an integrated payment gateway and inventory management system.",
-    "awegz": "Awegz",
-    "awegz-desc": "An AI-powered application that helps users create effective summaries of long articles.",
+    matgar: "Matgar",
+    "matgar-desc":
+      "A full-featured e-commerce platform with an integrated payment gateway and inventory management system.",
+    awegz: "Awegz",
+    "awegz-desc":
+      "An AI-powered application that helps users create effective summaries of long articles.",
     "awegz-title": "Awegz – Smart Educational Text Processing Platform",
-    "awegz-subtitle": "An advanced web application that transforms Arabic educational content into clear summaries and high-quality practice questions in seconds.",
+    "awegz-subtitle":
+      "An advanced web application that transforms Arabic educational content into clear summaries and high-quality practice questions in seconds.",
     "arabic-processing": "Arabic Processing",
     "responsive-design": "Responsive Design",
     "project-overview": "Project Overview",
-    "awegz-overview": "Awegz is a modern AI-powered web application designed to help students and educators instantly convert Arabic educational texts into structured summaries and automatically generated multiple-choice questions. It provides a fast, intuitive user experience with clean design, seamless text processing, and export-ready results.",
+    "awegz-overview":
+      "Awegz is a modern AI-powered web application designed to help students and educators instantly convert Arabic educational texts into structured summaries and automatically generated multiple-choice questions. It provides a fast, intuitive user experience with clean design, seamless text processing, and export-ready results.",
     "problem-solution": "Problem & Solution",
-    "problem": "Problem:",
-    "awegz-problem": "Students often struggle to summarize large lessons efficiently, and teachers spend unnecessary hours creating revision materials. Existing tools are not optimized for Arabic language processing, lack structure, produce inconsistent results, or require technical expertise.",
-    "solution": "Solution:",
-    "awegz-solution": "Awegz addresses these issues by providing a fully automated workflow:",
+    problem: "Problem:",
+    "awegz-problem":
+      "Students often struggle to summarize large lessons efficiently, and teachers spend unnecessary hours creating revision materials. Existing tools are not optimized for Arabic language processing, lack structure, produce inconsistent results, or require technical expertise.",
+    solution: "Solution:",
+    "awegz-solution":
+      "Awegz addresses these issues by providing a fully automated workflow:",
     "awegz-solution-1": "Instant generation of structured text summaries",
-    "awegz-solution-2": "Automatic production of multiple-choice questions with answers",
-    "awegz-solution-3": "Accurate Arabic language analysis optimized for educational content",
+    "awegz-solution-2":
+      "Automatic production of multiple-choice questions with answers",
+    "awegz-solution-3":
+      "Accurate Arabic language analysis optimized for educational content",
     "awegz-solution-4": "Exportable files (TXT / PDF / JSON)",
     "awegz-solution-5": "Simple interface requiring no learning curve",
     "key-features": "Key Features",
     "core-ai-features": "Core AI Features",
     "text-summarization": "Text Summarization",
-    "text-summarization-desc": "Converts long educational paragraphs into concise, well-structured summaries.",
+    "text-summarization-desc":
+      "Converts long educational paragraphs into concise, well-structured summaries.",
     "question-generation": "Question Generation",
-    "question-generation-desc": "Creates multiple-choice questions automatically with correct answers.",
+    "question-generation-desc":
+      "Creates multiple-choice questions automatically with correct answers.",
     "smart-analysis": "Smart Analysis",
-    "smart-analysis-desc": "Extracts key concepts, definitions, and important points from Arabic text.",
+    "smart-analysis-desc":
+      "Extracts key concepts, definitions, and important points from Arabic text.",
     "content-export": "Content Export",
-    "content-export-desc": "Download generated summaries and questions as TXT / PDF / JSON files.",
+    "content-export-desc":
+      "Download generated summaries and questions as TXT / PDF / JSON files.",
     "responsive-interface": "Responsive Interface",
-    "responsive-interface-desc": "Works seamlessly across mobile, tablet, and desktop devices.",
+    "responsive-interface-desc":
+      "Works seamlessly across mobile, tablet, and desktop devices.",
     "zero-setup": "Zero Setup",
-    "zero-setup-desc": "No login, no backend complexity — paste text and get instant results.",
+    "zero-setup-desc":
+      "No login, no backend complexity — paste text and get instant results.",
     "future-features": "Future Features",
     "saved-sessions": "Saved Sessions",
-    "saved-sessions-desc": "Automatically preserve processed questions and summaries.",
+    "saved-sessions-desc":
+      "Automatically preserve processed questions and summaries.",
     "doc-export": "DOC Export",
     "doc-export-desc": "Generate beautifully formatted DOC study sheets.",
     "teacher-dashboard": "Teacher Dashboard",
-    "teacher-dashboard-desc": "Organize lessons, track outputs, and share study material.",
+    "teacher-dashboard-desc":
+      "Organize lessons, track outputs, and share study material.",
     "tech-stack": "Tech Stack",
     "architecture-highlights": "Architecture Highlights",
-    "architecture-1": "API-based AI inference: Uses external LLM endpoints for summarization and question generation.",
-    "architecture-2": "Stateless client architecture: Avoids complex backend logic and ensures fast responses.",
-    "architecture-3": "Blob-based export system: Generates downloadable files directly from the browser.",
-    "architecture-4": "Optimized UI interactions: Real-time progress feedback and smooth loading states.",
+    "architecture-1":
+      "API-based AI inference: Uses external LLM endpoints for summarization and question generation.",
+    "architecture-2":
+      "Stateless client architecture: Avoids complex backend logic and ensures fast responses.",
+    "architecture-3":
+      "Blob-based export system: Generates downloadable files directly from the browser.",
+    "architecture-4":
+      "Optimized UI interactions: Real-time progress feedback and smooth loading states.",
     "challenges-solutions": "Challenges & Solutions",
-    "challenge-1": "Arabic NLP inconsistencies → Implement prompt-level safeguards and multiple reprocessing passes.",
-    "challenge-2": "Ensuring balanced question variety → Add model constraints and question distribution logic.",
-    "challenge-3": "Export formatting limitations → Use browser-based Blob generation and plan PDF integration.",
-    "screenshots": "Screenshots",
+    "challenge-1":
+      "Arabic NLP inconsistencies → Implement prompt-level safeguards and multiple reprocessing passes.",
+    "challenge-2":
+      "Ensuring balanced question variety → Add model constraints and question distribution logic.",
+    "challenge-3":
+      "Export formatting limitations → Use browser-based Blob generation and plan PDF integration.",
+    screenshots: "Screenshots",
     "future-improvements": "Future Improvements",
-    "improvement-1": "Teacher dashboard with saved summaries and question banks",
+    "improvement-1":
+      "Teacher dashboard with saved summaries and question banks",
     "improvement-2": "DOC export with full formatting",
     "improvement-3": "Advanced text difficulty analysis",
     "improvement-4": "AI-driven lesson planning assistant",
@@ -352,24 +414,30 @@ const translations = {
     "view-live-demo": "View Live Demo",
     "github-repository": "GitHub Repository",
     "matgar-title": "Next.js E-commerce Platform",
-    "matgar-subtitle": "An Arabic-first, EGP-based shopping solution tailored for the Egyptian market",
+    "matgar-subtitle":
+      "An Arabic-first, EGP-based shopping solution tailored for the Egyptian market",
     "e-commerce": "E-commerce",
     "arabic-ui": "Arabic UI",
-    "matgar-overview": "A modern, full-stack e-commerce platform built with Next.js and Supabase, tailored specifically for the Egyptian market. The platform delivers a fast, responsive, and user-friendly shopping experience for customers — with Arabic UI and prices in Egyptian Pounds (EGP) — while providing store owners with a secure admin dashboard to manage products, categories, and orders.",
-    "matgar-problem": "Most e-commerce platforms in Egypt are either poorly localized, not mobile-first, expensive for the business owner, poorly designed, or lack modern features like fast product filtering and smooth checkout.",
+    "matgar-overview":
+      "A modern, full-stack e-commerce platform built with Next.js and Supabase, tailored specifically for the Egyptian market. The platform delivers a fast, responsive, and user-friendly shopping experience for customers — with Arabic UI and prices in Egyptian Pounds (EGP) — while providing store owners with a secure admin dashboard to manage products, categories, and orders.",
+    "matgar-problem":
+      "Most e-commerce platforms in Egypt are either poorly localized, not mobile-first, expensive for the business owner, poorly designed, or lack modern features like fast product filtering and smooth checkout.",
     "matgar-solution": "Build a fully responsive, Arabic-first platform with:",
     "matgar-solution-1": "Customer storefront optimized for mobile and desktop",
-    "matgar-solution-2": "Admin dashboard with secure role-based access control",
+    "matgar-solution-2":
+      "Admin dashboard with secure role-based access control",
     "matgar-solution-3": "Efficient product/category management",
-    "storefront": "Storefront",
-    "homepage": "Homepage",
+    storefront: "Storefront",
+    homepage: "Homepage",
     "homepage-desc": "Featured products ('hot deals') & promotional banners",
     "product-listings": "Product Listings",
     "product-listings-desc": "Browse all products with advanced filtering",
     "search-filters": "Search & Filters",
-    "search-filters-desc": "Fuzzy search by product name/description with multiple filter options",
+    "search-filters-desc":
+      "Fuzzy search by product name/description with multiple filter options",
     "shopping-cart": "Shopping Cart",
-    "shopping-cart-desc": "Add, remove, update quantities with guest cart persistence",
+    "shopping-cart-desc":
+      "Add, remove, update quantities with guest cart persistence",
     "checkout-flow": "Checkout Flow",
     "checkout-flow-desc": "Smooth transition from cart to checkout",
     "responsive-design-desc": "Optimized for mobile, tablet, and desktop",
@@ -377,25 +445,36 @@ const translations = {
     "secure-authentication": "Secure Authentication",
     "secure-authentication-desc": "Role-based access with Supabase Auth",
     "product-management": "Product Management",
-    "product-management-desc": "CRUD products, upload images, set flags (is_hot, is_new)",
+    "product-management-desc":
+      "CRUD products, upload images, set flags (is_hot, is_new)",
     "category-management": "Category Management",
     "category-management-desc": "Create/update/delete categories",
     "centralized-admin-panel": "Centralized Admin Panel",
-    "centralized-admin-panel-desc": "Sidebar navigation for products, categories, orders",
-    "matgar-architecture-1": "Server Components: Fast initial load & SEO (e.g., homepage fetching 'hot deals')",
-    "matgar-architecture-2": "Client Components: Dynamic pages (products, cart) with real-time UI updates",
-    "matgar-architecture-3": "State Management: Server-side data fetching combined with client-side React hooks and localStorage for cart persistence",
-    "matgar-architecture-4": "Role-Based Access Control (RBAC): Admin layout verifies role metadata before rendering, redirecting unauthorized users",
-    "matgar-challenge-1": "Rich filtering without slow queries → Fetch products once client-side, then filter/search in-memory",
-    "matgar-challenge-2": "Guest cart persistence → Store cart in localStorage, sync on login/checkout",
-    "matgar-challenge-3": "Securing admin routes → Middleware-like admin layout checks Supabase Auth roles",
+    "centralized-admin-panel-desc":
+      "Sidebar navigation for products, categories, orders",
+    "matgar-architecture-1":
+      "Server Components: Fast initial load & SEO (e.g., homepage fetching 'hot deals')",
+    "matgar-architecture-2":
+      "Client Components: Dynamic pages (products, cart) with real-time UI updates",
+    "matgar-architecture-3":
+      "State Management: Server-side data fetching combined with client-side React hooks and localStorage for cart persistence",
+    "matgar-architecture-4":
+      "Role-Based Access Control (RBAC): Admin layout verifies role metadata before rendering, redirecting unauthorized users",
+    "matgar-challenge-1":
+      "Rich filtering without slow queries → Fetch products once client-side, then filter/search in-memory",
+    "matgar-challenge-2":
+      "Guest cart persistence → Store cart in localStorage, sync on login/checkout",
+    "matgar-challenge-3":
+      "Securing admin routes → Middleware-like admin layout checks Supabase Auth roles",
     "matgar-improvement-1": "Integrate full payment gateway",
-    "matgar-improvement-2": "Add customer accounts (order history, saved addresses)",
-    "matgar-improvement-3": "Implement server-side pagination for large datasets",
-    "matgar-improvement-4": "Add internationalization (multi-language, multi-currency)"
+    "matgar-improvement-2":
+      "Add customer accounts (order history, saved addresses)",
+    "matgar-improvement-3":
+      "Implement server-side pagination for large datasets",
+    "matgar-improvement-4":
+      "Add internationalization (multi-language, multi-currency)",
   },
 };
-
 
 const langSwitch = document.getElementById("lang-switch");
 
@@ -420,6 +499,7 @@ const setLanguage = (lang) => {
     document.getElementById("lang-en").classList.add("active");
     document.getElementById("lang-ar").classList.remove("active");
   }
+  localStorage.setItem("lang", lang);
 };
 
 langSwitch.addEventListener("click", (e) => {
@@ -472,12 +552,29 @@ if (contactForm) {
     e.preventDefault();
 
     // Get form values
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const project = document.getElementById("project").value;
+    const message = document.getElementById("message").value.trim();
 
-    // Simple validation
-    if (!name || !email) {
-      alert("Please fill in all required fields.");
+    // Email regex
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Validation
+    if (!name) {
+      alert("Please enter your name.");
+      return;
+    }
+    if (!email || !emailRegex.test(email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+    if (!project) {
+      alert("Please select a project type.");
+      return;
+    }
+    if (!message) {
+      alert("Please enter your project details.");
       return;
     }
 
@@ -552,13 +649,18 @@ const themeToggle = document.getElementById("theme-toggle");
 const body = document.body;
 const logoImgs = document.querySelectorAll(".logo-icon img");
 
+const sunSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`;
+const moonSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
+
 const applyTheme = (theme) => {
   if (theme === "light") {
     body.classList.add("light-mode");
     logoImgs.forEach((img) => (img.src = "logo-dark.svg"));
+    themeToggle.innerHTML = moonSvg;
   } else {
     body.classList.remove("light-mode");
     logoImgs.forEach((img) => (img.src = "logo-white.svg"));
+    themeToggle.innerHTML = sunSvg;
   }
 };
 
@@ -593,6 +695,11 @@ function setupCarousel(carouselElement) {
 
   const nextBtn = carouselElement.querySelector(".next");
   const prevBtn = carouselElement.querySelector(".prev");
+
+  if (isRTL) {
+    nextBtn.innerHTML = ">";
+    prevBtn.innerHTML = "<";
+  }
 
   function updateSlidePosition() {
     const movePercentage = isRTL ? currentIndex * 100 : -currentIndex * 100;
